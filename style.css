@@ -13,6 +13,7 @@ body{
     font-size: 19px;
 }
 
+
 .designer3{
     height:100px;
     overflow: hidden;
@@ -41,6 +42,11 @@ body{
     transform-origin: bottom right;
     transform: rotate(-45deg);
 }
+
+   .nav__toggle{
+        width: 1rem;
+        display: none;
+    }
 
 
 .landing{
@@ -376,10 +382,6 @@ body{
     background: #292929;
 }
 
-
-
- 
-
 .design{
     top: 10%;
     height:60px;
@@ -440,3 +442,14 @@ body{
     font-size: 20px;
     font-weight: bold;
 }
+
+.copy{
+    font-size: 26px
+}
+@media (max-width:575px){
+    .copy{
+        font-size: 16px;
+    }
+}
+
+

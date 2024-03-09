@@ -15,7 +15,9 @@
     overflow: hidden;
     position: relative;
     width: 100px;
-    transform:  rotate(90deg)}
+    transform:  rotate(90deg);
+    top: -15%;
+}
 
 .main5{
     position:absolute;
@@ -126,6 +128,7 @@
     position: relative;
     width: 160px;
 
+
 }
 
 .main3{
@@ -178,4 +181,13 @@
     color: #DC3545;
     font-size: 20px;
     font-weight: bold;
+}
+
+.copy{
+    font-size: 26px
+}
+@media (max-width:575px){
+    .copy{
+        font-size: 16px;
+    }
 }
