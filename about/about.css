@@ -1,0 +1,458 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Libre Baskerville", serif;
+    
+}
+
+.navcontent{
+    font-size: 19px;
+}
+
+.designer3{
+    height:100px;
+    overflow: hidden;
+    position: relative;
+    width: 100px;
+    transform:  rotate(90deg)}
+
+.main5{
+    position:absolute;
+    top:0;
+    right: 0;
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    transform-origin: top right;
+    transform: rotate(45deg);
+}
+
+.main6{
+    position:absolute;
+    bottom:0;
+    right: 0;
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    transform-origin: bottom right;
+    transform: rotate(-45deg);
+}
+
+
+.hero{
+    background: url(../photos/Rectangle\ 27.png);
+    height: 65vh;
+    background-position: center;
+}
+
+.big__content {
+    width: 50%;
+    float: right;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.content{
+    border-right: 5px solid red;
+    height:12rem
+}
+
+.para1{
+    width: 50%;
+    float: right;
+}
+
+@media (max-width:575px){
+    .big__content{
+        width: 100%;
+        float: left;
+        font-size: 26px;
+    }
+    .content{
+        border-right: none;
+    }
+
+    .para1{
+        width: 100%;
+        float: left;
+    }
+    .photo{
+        width: 30rem;
+    }
+}
+
+@media (min-width:576px){
+    .big__content{
+        width: 100%;
+        float: left;
+        font-size: 26px;
+    }
+    .content{
+        border-right: none;
+    }
+
+    .para1{
+        width: 100%;
+        float: left;
+    }
+    .photo{
+        width: 30rem;
+    }
+}
+@media (min-width:768px){
+    .big__content{
+        width: 100%;
+        float: left;
+        font-size: 26px;
+    }
+    .content{
+        border-right: none;
+    }
+
+    .para1{
+        width: 100%;
+        float: left;
+    }
+    .photo{
+        width: 43rem;
+        
+    }
+}
+
+@media (min-width:992px){
+    .big__content{
+        width: 100%;
+        float: left;
+        font-size: 26px;
+    }
+    .content{
+        border-right: none;
+    }
+
+    .para1{
+        width: 100%;
+        float: left;
+    }
+    .photo{
+        width: 66rem;
+        
+    }
+}
+
+@media (min-width:1200px){
+    .big__content{
+        width: 50%;
+        float: right;
+        font-size: 45px;
+    }
+    .content{
+        border-right: 5px solid red;
+        height: 12rem;
+    }
+
+    .para1{
+        width: 50%;
+        float: right;
+    }
+    .photo{
+        width: 50rem;
+        
+    }
+}
+@media (min-width:1400px){
+    .big__content{
+        width: 50%;
+        float: right;
+        font-size: 45px;
+    }
+    .content{
+        border-right: 5px solid red;
+        height: 12rem;
+    }
+
+    .para1{
+        width: 50%;
+        float: right;
+    }
+    .photo{
+        width: 70rem;
+        
+    }
+}
+
+
+.landing2{
+    background: url("../photos/Rectangle\ 10.png");
+    background-repeat: no-repeat;
+    height: 45rem;
+}
+
+.text{
+    font-size: 60px;
+    width: 50%;
+}
+
+.para{
+    width: 40%;
+    font-size: 20px;
+}
+
+.button1 button{
+    width: 28rem;
+    height: 4rem;
+}
+
+@media(max-width:575px){
+    .text{
+        font-size: 26px;
+        width: 100%;
+    }
+    .para{
+        width: 40%;
+        font-size: 20px;
+    }
+    .button1 button{
+        width: 20rem;
+        height: 4rem;
+    }
+    
+}
+@media(min-width:576px){
+    .text{
+        font-size: 26px;
+        width: 100%;
+    }
+    .para{
+        width: 60%;
+        font-size: 20px;
+    }
+    .button1 button{
+        width: 20rem;
+        height: 4rem;
+    }  
+}
+@media(min-width:992px){
+    .text{
+        font-size: 36px;
+        width: 50%;
+    }
+    .para{
+        width: 50%;
+        font-size: 20px;
+    }
+    .button1 button{
+        width: 20rem;
+        height: 4rem;
+    }  
+}
+
+@media(min-width:1200px){
+    .text{
+        font-size: 46px;
+        width: 40%;
+    }
+    .para{
+        width: 40%;
+        font-size: 20px;
+    }
+    .button1 button{
+        width: 24rem;
+        height: 4rem;
+    }  
+}
+
+@media(min-width:1400px){
+    .text{
+        font-size: 60px;
+        width: 50%;
+    }
+    .para{
+        width: 40%;
+        font-size: 20px;
+    }
+    .button1 button{
+        width: 28rem;
+        height: 4rem;
+    }  
+}
+
+.big_content1{
+    width: 60%;
+    font-size: 60px;
+    font-weight: bolder;
+}
+.content1{
+    justify-content: end;
+}
+.para2{
+    width: 50%;
+}
+
+.photo1{
+    width: 50rem;
+}
+
+@media(max-width:575px){
+    .big_content1{
+        width: 100%;
+        font-size: 26px;
+    }
+    .para2{
+        width: 100%;
+    }
+
+    .photo1{
+        width: 33rem;
+    }
+}
+@media(min-width:576px){
+    .big_content1{
+        width: 100%;
+        font-size: 26px;
+    }
+    .para2{
+        width: 100%;
+    }
+
+    .photo1{
+        width: 33rem;
+    }
+}
+
+@media(min-width:768px){
+    .big_content1{
+        width: 100%;
+        font-size: 26px;
+    }
+    .para2{
+        width: 100%;
+    }
+
+    .photo1{
+        width: 45rem;
+    }
+}
+
+@media(min-width:992px){
+    .big_content1{
+        width: 100%;
+        font-size: 26px;
+    }
+    .para2{
+        width: 100%;
+    }
+
+    .photo1{
+        width: 45rem;
+    }
+}
+@media(min-width:1200px){
+    .big_content1{
+        width: 60%;
+        font-size: 60px;
+    }
+    .para2{
+        width: 50%;
+    }
+
+    .photo1{
+        width: 30rem;
+    }
+}
+
+@media(min-width:1200px){
+    .big_content1{
+        width: 60%;
+        font-size: 60px;
+    }
+    .para2{
+        width: 50%;
+    }
+
+    .photo1{
+        width: 50rem;
+    }
+}
+.heading_right{
+    border-right: 5px solid red;
+    float: right;
+}
+
+.heading_right1{
+    border-left: 5px solid red;
+}
+
+.landing4{
+    background: #292929;
+}
+
+.logo{
+    height: 25px;
+    color: white;
+}
+
+.sub_footer{
+    background: #292929;
+}
+
+.design{
+    top: 10%;
+    height:60px;
+    overflow: hidden;
+    position: relative;
+    width: 160px;
+
+}
+
+.main3{
+    position:absolute;
+    top:0;
+    right: 0;
+    width: 400px;
+    height: 150px;
+    background-color: white;
+    transform-origin: top right;
+    transform: rotate(45deg);
+}
+
+.main4{
+    position:absolute;
+    bottom:0;
+    right: 0;
+    width: 400px;
+    height: 150px;
+    background-color: white;
+    transform-origin: bottom right;
+    transform: rotate(-45deg);
+}
+
+.design1{
+    top: 10%;
+    height:60px;
+    overflow: hidden;
+    position: relative;
+    width: 180px;
+    font-size: 20px;
+
+}
+
+.texts{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: #DC3545;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.texts2{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: #DC3545;
+    font-size: 20px;
+    font-weight: bold;
+}
