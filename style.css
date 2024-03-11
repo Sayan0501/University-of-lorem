@@ -223,7 +223,7 @@ body{
         width: 100%;
     }
     .photo{
-        width: 35rem;
+        width: 30rem;
     }
 }
 @media(min-width:575px){
