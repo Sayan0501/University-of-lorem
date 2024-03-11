@@ -44,6 +44,7 @@
     background: url(../photos/Rectangle\ 27.png);
     height: 65vh;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 .big__content {
